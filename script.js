@@ -12,7 +12,7 @@ const secId = document.querySelector('#container');
 console.log(secId);
 
 // 3) Select all of the list items with a class of "second".
-const second = document.getElementsByClassName("ol.third");
+const second = document.getElementsByClassName("ol.second");
 console.log(second);
 
 // 4) Select a list item with a class of third, but only the list item inside of the ol tag.
@@ -37,7 +37,7 @@ footer[0].removeChild(footer[0].lastChild);
 const myLi = document.createElement('li');
 
 // 9) Give the li the text "four".
-myLi.textContent = "four";
+myLi.innerText = "four";
 
 // 10) Append the li to the ul element.
 const myUl = document.querySelector("ul");
